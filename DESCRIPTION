@@ -1,0 +1,16 @@
+Package: antiProfilesData
+Maintainer: Hector Corrada Bravo <hcorrada@gmail.com>
+Author: Hector Corrada Bravo, Matthew McCall and Rafael A. Irizarry
+Version: 0.99.0
+License: Artistic-2.0
+Title: Normal colon and cancer preprocessed affy data for antiProfile
+        building.
+Description: Colon normal tissue and cancer samples used in Corrada Bravo, et
+    al. gene expression anti-profiles paper: BMC Bioinformatics 2012, 13:272
+    doi:10.1186/1471-2105-13-272. Measurements are z-scores obtained from the
+    GeneExpression Barcode in the 'frma' package
+LazyData: yes
+Depends: Biobase,
+Suggests: frma, GEOquery, GEOmetadb
+biocViews: ExperimentData, RNAExpressionData, Cancer, NormalTissue
+Collate: 'antiProfilesData-package.r' 'apColonData.r'
